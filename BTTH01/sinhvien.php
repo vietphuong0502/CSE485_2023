@@ -5,31 +5,61 @@ class Student {
     private $age;
 
     // Getter và setter cho thuộc tính id
-    public function getId() {
+    public function __construct()
+    {
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
         return $this->id;
     }
 
-    public function setId($id) {
+    /**
+     * @param mixed $id
+     */
+    public function setId($id)
+    {
         $this->id = $id;
     }
 
-    // Getter và setter cho thuộc tính name
-    public function getName() {
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
         return $this->name;
     }
 
-    public function setName($name) {
+    /**
+     * @param mixed $name
+     */
+    public function setName($name)
+    {
         $this->name = $name;
     }
 
-    // Getter và setter cho thuộc tính age
-    public function getAge() {
+    /**
+     * @return mixed
+     */
+    public function getAge()
+    {
         return $this->age;
     }
 
-    public function setAge($age) {
+    /**
+     * @param mixed $age
+     */
+    public function setAge($age)
+    {
         $this->age = $age;
     }
+
+
+
+
 }
 
 class StudentDAO {
