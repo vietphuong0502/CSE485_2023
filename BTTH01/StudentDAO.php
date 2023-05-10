@@ -1,4 +1,5 @@
 <?php
+include "Student.php";
 class StudentDAO {
     private $students;
 
