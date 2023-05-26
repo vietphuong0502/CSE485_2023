@@ -1,9 +1,9 @@
 <?php
-//include_once '../Controllers/courseController.php';
-//session_start();
-//
-//$courseController = new CourseController();
-//$data = $courseController->getAll();
+include_once '../Controllers/courseController.php';
+session_start();
+
+$courseController = new CourseController();
+$data = $courseController->getAll();
 ?>
 
 <!doctype html>

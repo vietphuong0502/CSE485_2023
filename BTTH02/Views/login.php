@@ -1,7 +1,7 @@
 <?php
-//include_once '../Controllers/login_controlller.php';
-//$loginController = new logincontroller();
-//$loginController->login();
+include_once '../Controllers/loginControlller.php';
+$loginController = new loginController();
+$loginController->login();
 ?>
 
 
