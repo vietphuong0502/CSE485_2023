@@ -5,6 +5,7 @@
 //$courseController = new CourseController();
 //$data = $courseController->getAll();
 ?>
+
 <!doctype html>
 <html lang="en">
 <head>
