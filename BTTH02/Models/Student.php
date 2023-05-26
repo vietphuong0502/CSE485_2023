@@ -1,6 +1,11 @@
 <?php
 
+<<<<<<< HEAD
 class Student
+=======
+namespace Models;
+class vStudent
+>>>>>>> origin/minhtuan
 {
     private $id;
     private $name;
