@@ -6,7 +6,7 @@ class CourseController
     {
         $pdo = new Connect();
         $conn = $pdo->getConnection();
-        $sql = "SELECT * FROM courses";
+        $sql = "SELECT * FROM course";
         $stmt = $conn->prepare($sql);
         $stmt->execute();
         $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -17,7 +17,7 @@ class CourseController
     {
         $pdo = new Connect();
         $conn = $pdo->getConnection();
-        $sql = "SELECT * FROM courses";
+        $sql = "SELECT * FROM course";
         $stmt = $conn->prepare($sql);
         $stmt->execute();
         $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
